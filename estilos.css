@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    width: 300px;
+    height: 520px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+img {
+    width: 250px;
+}
+
+.h12{
+    color: rgb(253, 182, 67);
+}
+
+.h13{
+    color:  rgb(91, 181, 250);
+}
+.estrella {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.boton1 {
+    background-color: black;
+    color: white;
+    width: 340px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.boton2 {
+    background-color: rgb(253, 182, 67);
+    color: white;
+    width: 340px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton3 {
+    background-color: rgb(91, 181, 250);
+    color: white;
+    width: 340px;
+    height: 60px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1:hover .boton1 {
+    background-color: rgb(196, 196, 196);
+}
+
+.container1:hover .h11 {
+    color: rgb(128, 128, 128);
+}
+
+.container1:hover .boton2 {
+    background-color: rgb(134, 66, 3);
+}
+
+.container1:hover .h12 {
+    color: rgb(134, 66, 3);
+}
+
+.container1:hover .boton3 {
+    background-color: rgb(36, 118, 181);
+}
+
+.container1:hover .h13 {
+    color: rgb(36, 118, 181);
+}
